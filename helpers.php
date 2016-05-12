@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Get the User's IP Address utilizing all appropriate server variables
+ * Get the request's IP Address utilizing all appropriate server variables
  *
  * @return string
  */

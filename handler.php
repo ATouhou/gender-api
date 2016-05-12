@@ -3,6 +3,16 @@
     include "gender.php";
     include "helpers.php";
 
+    /**
+     * Utilizing APIs From:
+     * ======================= Geographic Tracking - http://ipinfo.io =======================
+     * 1,000 Daily Requests Rate Limited
+     * $50/mo to Increase
+     * ===================== Gender Tracking - https://api.genderize.io =====================
+     * * 1,000 Daily Requests Rate Limited
+     * * $9/mo to Increase
+     */
+
     // Get request's location from IP Address
     $ip = getIP();
     if ($ip != "UNKNOWN") {
